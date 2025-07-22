@@ -1,7 +1,7 @@
 # 🏕️ Wanderlust Backend (Major Project)
 
 A complete Node.js & Express.js backend project for a travel stay booking app (similar to Airbnb), built with MongoDB, Passport.js authentication, and EJS templating engine.
-Tools/Technologies: Node.js, Express.js, MongoDB, Mongoose, Passport.js, EJS, Cloudinary, dotenv, Express-session, Flash, REST APIs, MVC, Git
+Tools/Technologies: Node.js, Express.js, MongoDB, Mongoose, Passport.js, EJS, Cloudinary, dotenv, Express-session, Flash, REST APIs, MVC, Git.
 
 ---
 
