@@ -99,3 +99,72 @@ body{
    height: 400px;
    width: 80vh;
  }
+/* ---------------------------- */
+/* 🌐 Responsive Design Section */
+/* ---------------------------- */
+
+/* For tablets and smaller laptops */
+@media (max-width: 992px) {
+  .btns {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .edit-btn,
+  .add-btn {
+    padding: 0.5rem 1.2rem !important;
+    font-size: 0.95rem !important;
+  }
+
+  #map {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+  .btns {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.6rem;
+  }
+
+  .edit-btn,
+  .add-btn {
+    width: 90% !important;
+    font-size: 0.9rem !important;
+    padding: 0.6rem 1rem !important;
+    border-radius: 0.5rem !important;
+  }
+
+  .show-img {
+    height: 25vh !important;
+  }
+
+  #map {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+/* For very small screens (phones < 480px) */
+@media (max-width: 480px) {
+  .btns {
+    flex-direction: column !important;
+    gap: 0.5rem;
+  }
+
+  .edit-btn,
+  .add-btn {
+    width: 100% !important;
+    font-size: 0.85rem !important;
+    padding: 0.5rem 0.8rem !important;
+  }
+
+  #map {
+    width: 100%;
+    height: 200px;
+  }
+}
